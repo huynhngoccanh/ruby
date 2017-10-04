@@ -1,0 +1,3016 @@
+Started GET "/" for 127.0.0.1 at 2017-10-04 13:11:25 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 373ms (Views: 16.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2017-10-04 13:12:23 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 734ms (Views: 558.9ms)
+
+
+Started GET "/article/new" for 127.0.0.1 at 2017-10-04 13:14:58 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/article/new"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/article/new" for 127.0.0.1 at 2017-10-04 13:16:06 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/article/new"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/article/new" for 127.0.0.1 at 2017-10-04 13:16:10 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/article/new"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/article/new" for 127.0.0.1 at 2017-10-04 13:16:23 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/article/new"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:16:30 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 405ms (Views: 279.2ms)
+
+
+Started POST "/articles/new" for 127.0.0.1 at 2017-10-04 13:17:47 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/articles/new" for 127.0.0.1 at 2017-10-04 13:18:28 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/articles/new" for 127.0.0.1 at 2017-10-04 13:18:49 +0700
+  
+ActionController::RoutingError (No route matches [POST] "/articles/new"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:19:47 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 28ms (Views: 26.6ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 13:19:50 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3iXgU6xD7iN4mOxIi5SaiUO6ODsZQyiQxsyNDmqUFFr2jkPR+81duG611AQaJpccrWXW+cGEXiyz1tmiTaC3Hw==", "article"=>{"title"=>"dA", "text"=>"A"}, "commit"=>"Save Article"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:21:58 +0700
+  
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+vendor/bundle/gems/mysql2-0.4.9/lib/mysql2/client.rb:89:in `connect'
+vendor/bundle/gems/mysql2-0.4.9/lib/mysql2/client.rb:89:in `initialize'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:88:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:562:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:553:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:22:46 +0700
+  
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+vendor/bundle/gems/mysql2-0.4.9/lib/mysql2/client.rb:89:in `connect'
+vendor/bundle/gems/mysql2-0.4.9/lib/mysql2/client.rb:89:in `initialize'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:88:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:562:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:553:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:22:49 +0700
+  
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+vendor/bundle/gems/mysql2-0.4.9/lib/mysql2/client.rb:89:in `connect'
+vendor/bundle/gems/mysql2-0.4.9/lib/mysql2/client.rb:89:in `initialize'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:88:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:562:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:553:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:31:23 +0700
+  
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: NO)):
+  
+vendor/bundle/gems/mysql2-0.4.9/lib/mysql2/client.rb:89:in `connect'
+vendor/bundle/gems/mysql2-0.4.9/lib/mysql2/client.rb:89:in `initialize'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `new'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:21:in `mysql2_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:88:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:562:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:553:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:45:38 +0700
+  
+ActiveRecord::NoDatabaseError (Unknown database 'myapp1_development'):
+  
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:25:in `rescue in mysql2_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/connection_handling.rb:88:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:562:in `connection'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:553:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (243.8ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (237.1ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArticles (20171004062032)
+  [1m[35m (1451.8ms)[0m  [1m[35mCREATE TABLE `articles` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `text` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004062032')[0m
+  [1m[35m (33.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2017-10-04 06:46:14', '2017-10-04 06:46:14')[0m
+  [1m[35m (37.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:46:24 +0700
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 235ms (Views: 226.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 13:47:59 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZR00XdbdKTxkUiIytnR9VfeFE3UvSBXhw5xHQroeauZNtpffgVOap3J/Gn4nxnDAGVr9t/ePY122hhPunSrJow==", "article"=>{"title"=>"dwq", "text"=>"dewqwq"}, "commit"=>"Save Article"}
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Completed 500 Internal Server Error in 81ms (ActiveRecord: 2.5ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/articles_controller.rb:5:in `create'
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 13:49:26 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZR00XdbdKTxkUiIytnR9VfeFE3UvSBXhw5xHQroeauZNtpffgVOap3J/Gn4nxnDAGVr9t/ePY122hhPunSrJow==", "article"=>{"title"=>"dwq", "text"=>"dewqwq"}, "commit"=>"Save Article"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 2.0ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/articles_controller.rb:5:in `create'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:51:31 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 13:51:36 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B/S3f9Y5wEkSIVPNwyD3sZnuaTIGyTf6A0+b4heeG1MvXxT9gbdz0gQMa4FSkvokdzGH8N4OQUZ2Vc9OMKq4Fg==", "article"=>{"title"=>"wqdw", "text"=>"deqwdwq"}, "commit"=>"Save Article"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/articles_controller.rb:5:in `create'
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 13:52:27 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B/S3f9Y5wEkSIVPNwyD3sZnuaTIGyTf6A0+b4heeG1MvXxT9gbdz0gQMa4FSkvokdzGH8N4OQUZ2Vc9OMKq4Fg==", "article"=>{"title"=>"wqdw", "text"=>"deqwdwq"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('wqdw', 'deqwdwq', '2017-10-04 06:52:27', '2017-10-04 06:52:27')[0m
+  [1m[35m (39.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 55ms (ActiveRecord: 40.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-10-04 13:52:27 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <p>
+    2:   <strong>Title:</strong>
+    3:   <%= @article.title %>
+    4: </p>
+    5:  
+    6: <p>
+  
+app/views/articles/show.html.erb:3:in `_app_views_articles_show_html_erb__1742039296959937783_32316040'
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 13:53:04 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B/S3f9Y5wEkSIVPNwyD3sZnuaTIGyTf6A0+b4heeG1MvXxT9gbdz0gQMa4FSkvokdzGH8N4OQUZ2Vc9OMKq4Fg==", "article"=>{"title"=>"wqdw", "text"=>"deqwdwq"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('wqdw', 'deqwdwq', '2017-10-04 06:53:04', '2017-10-04 06:53:04')[0m
+  [1m[35m (128.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2
+Completed 302 Found in 147ms (ActiveRecord: 128.9ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-10-04 13:53:04 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 18.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 13:53:07 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B/S3f9Y5wEkSIVPNwyD3sZnuaTIGyTf6A0+b4heeG1MvXxT9gbdz0gQMa4FSkvokdzGH8N4OQUZ2Vc9OMKq4Fg==", "article"=>{"title"=>"wqdw", "text"=>"deqwdwq"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('wqdw', 'deqwdwq', '2017-10-04 06:53:07', '2017-10-04 06:53:07')[0m
+  [1m[35m (51.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/3
+Completed 302 Found in 57ms (ActiveRecord: 52.1ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2017-10-04 13:53:07 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 13:53:47 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2017-10-04 13:54:50 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2017-10-04 13:54:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/index" for 127.0.0.1 at 2017-10-04 13:55:10 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=index):
+  
+app/controllers/articles_controller.rb:3:in `show'
+Started GET "/articles/index" for 127.0.0.1 at 2017-10-04 13:55:32 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 9ms (ActiveRecord: 1.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=index):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 13:55:42 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 33ms (Views: 30.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/index" for 127.0.0.1 at 2017-10-04 13:55:50 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=index):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 13:55:58 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-10-04 13:56:02 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-10-04 13:56:04 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2017-10-04 13:56:06 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/index/1" for 127.0.0.1 at 2017-10-04 13:56:55 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/articles/index/1"):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 13:56:59 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-10-04 13:57:01 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/" for 127.0.0.1 at 2017-10-04 13:57:05 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/index" for 127.0.0.1 at 2017-10-04 13:59:37 +0700
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 15ms (ActiveRecord: 2.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=index):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 13:59:42 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 152ms (Views: 149.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-10-04 14:00:14 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 39.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:00:19 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/edit" for 127.0.0.1 at 2017-10-04 14:01:07 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=edit):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:01:13 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:01:27 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgBGcDrnS9sbW+CdZHZiYjbeMx9SgmNOFZbpy1c/OvmGq+XybWn4QA122NH1xG/32AHd3YpFFfJgjL1ncAuZvA==", "article"=>{"title"=>"canh", "text"=>"ca"}, "commit"=>"Save Article"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('canh', 'ca', '2017-10-04 07:01:27', '2017-10-04 07:01:27')[0m
+  [1m[35m (130.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 136ms (ActiveRecord: 130.9ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2017-10-04 14:01:27 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 4 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:02:40 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rgBGcDrnS9sbW+CdZHZiYjbeMx9SgmNOFZbpy1c/OvmGq+XybWn4QA122NH1xG/32AHd3YpFFfJgjL1ncAuZvA==", "article"=>{"title"=>"canh", "text"=>"cax"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('canh', 'cax', '2017-10-04 07:02:40', '2017-10-04 07:02:40')[0m
+  [1m[35m (71.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to 
+Completed 500 Internal Server Error in 85ms (ActiveRecord: 71.9ms)
+
+
+  
+NoMethodError (undefined method `to_model' for 1:Integer):
+  
+app/controllers/articles_controller.rb:14:in `create'
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:03:10 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 14:03:14 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-10-04 14:03:50 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:09:43 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 30ms (Views: 25.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:09:46 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:09:50 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PHdW296kJ00epPJMnJRIbET6iczja2ciMTerEDM/Ib4U3PVZiSqU1giJygANJkX5qiVnDjusEZ5ELf+8FAuC+w==", "article"=>{"title"=>"wqdw", "text"=>"dqwdw"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('wqdw', 'dqwdw', '2017-10-04 07:09:50', '2017-10-04 07:09:50')[0m
+  [1m[35m (144.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 219ms (ActiveRecord: 145.2ms)
+
+
+  
+NoMethodError (undefined method `debug' for #<ArticlesController:0x007f67ec1564f8>):
+  
+app/controllers/articles_controller.rb:14:in `create'
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:10:40 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PHdW296kJ00epPJMnJRIbET6iczja2ciMTerEDM/Ib4U3PVZiSqU1giJygANJkX5qiVnDjusEZ5ELf+8FAuC+w==", "article"=>{"title"=>"wqdw", "text"=>"dqwdw"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('wqdw', 'dqwdw', '2017-10-04 07:10:40', '2017-10-04 07:10:40')[0m
+  [1m[35m (37.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:13:47 +0700
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 227ms (Views: 219.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:13:51 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AFHCx3m8PbwzMufIg+PtgcUstmpbx4GJv5faXtuRVQso+mFFLjKOJyUf34QSUeAUK/NYqIMA9zXKjY7y/KX2Tg==", "article"=>{"title"=>"ewqewq", "text"=>"ewqewq"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('ewqewq', 'ewqewq', '2017-10-04 07:13:51', '2017-10-04 07:13:51')[0m
+  [1m[35m (122.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/8
+Completed 302 Found in 140ms (ActiveRecord: 124.6ms)
+
+
+Started GET "/articles/8" for 127.0.0.1 at 2017-10-04 14:13:51 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 8 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 18.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:14:49 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:14:52 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:18:05 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:18:08 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:18:10 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:18:12 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:18:40 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2017-10-04 14:18:42 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 4 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 33.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:18:43 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:21:49 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:21:57 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hiiilk2s2nmRxS1oqSpjBaDvxLzGBwDHRFJEut5hfooX35pQWThlyWSdl5NAQTULg4Aw0DcjF5CWyXdBP9tV7A==", "article"=>{"title"=>"wqwq", "text"=>"ewq"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 21ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:21:57 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:22:01 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:22:05 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KDJ4B/h4tu2dcZVIF9enuAvHlouTVLAEP+JtI3Wvdl65xUDB7OwJXWgpL7P+vPG2KKhi52Jwp1PteV7YlBVdOA==", "article"=>{"title"=>"wq", "text"=>"wedqw"}, "commit"=>"Save Article"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:22:05 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:22:49 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 40ms (Views: 31.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:22:52 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:22:55 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N0fCSRUKIIsDgfP5wenXxQyaK8tOBS44JuNPKturTgemsPqPAZ6fO/bZSQIogoHLL/Xfp78hOW/0eHzROhFlYQ==", "article"=>{"title"=>"eqw", "text"=>"ewqwqe"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 34ms (Views: 29.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 14:23:34 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O/yzbcCaTgjh40CkHnrRCMra86q/jmV6J4LBv51R+m0TVxDvlxT9k/fOeOiPyNydJAUdaGdJE8ZSmJUTumVZKA==", "article"=>{"title"=>"eqw", "text"=>"ewqwqe"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/edit" for 127.0.0.1 at 2017-10-04 14:26:23 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 10ms (ActiveRecord: 2.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=edit):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:27:26 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 30ms (Views: 23.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2017-10-04 14:27:27 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:27:33 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ivAsQFzu+3/l+44DTuG3/jNuyGyEO9d24rF4bJY3w7lmLdNKQ+BdaMGDDitKnYwX4EZsjRF1zDWfML2fknNEXw==", "article"=>{"title"=>"canh", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:27:34 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ivAsQFzu+3/l+44DTuG3/jNuyGyEO9d24rF4bJY3w7lmLdNKQ+BdaMGDDitKnYwX4EZsjRF1zDWfML2fknNEXw==", "article"=>{"title"=>"canh", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 27ms (Views: 23.1ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:27:35 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ivAsQFzu+3/l+44DTuG3/jNuyGyEO9d24rF4bJY3w7lmLdNKQ+BdaMGDDitKnYwX4EZsjRF1zDWfML2fknNEXw==", "article"=>{"title"=>"canh", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 30ms (Views: 25.1ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:27:35 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ivAsQFzu+3/l+44DTuG3/jNuyGyEO9d24rF4bJY3w7lmLdNKQ+BdaMGDDitKnYwX4EZsjRF1zDWfML2fknNEXw==", "article"=>{"title"=>"canh", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 27ms (Views: 21.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2017-10-04 14:28:11 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 34ms (Views: 30.9ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:28:12 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"39LnAWK9XTR7bZ8z3Pr6/1EtvOIv3ok2dCPZCWz7/P33eUSDNTPur21Ap39NSPdqv/JSIPcZ/4oBOY2lS89fuA==", "article"=>{"title"=>"wqdw", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:28:13 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"39LnAWK9XTR7bZ8z3Pr6/1EtvOIv3ok2dCPZCWz7/P33eUSDNTPur21Ap39NSPdqv/JSIPcZ/4oBOY2lS89fuA==", "article"=>{"title"=>"wqdw", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 28ms (Views: 23.3ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:28:13 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"39LnAWK9XTR7bZ8z3Pr6/1EtvOIv3ok2dCPZCWz7/P33eUSDNTPur21Ap39NSPdqv/JSIPcZ/4oBOY2lS89fuA==", "article"=>{"title"=>"wqdw", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 33ms (Views: 27.3ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:28:16 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"39LnAWK9XTR7bZ8z3Pr6/1EtvOIv3ok2dCPZCWz7/P33eUSDNTPur21Ap39NSPdqv/JSIPcZ/4oBOY2lS89fuA==", "article"=>{"title"=>"wqdwt", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (10.4ms)[0m  [1m[33mUPDATE `articles` SET `title` = 'wqdwt', `updated_at` = '2017-10-04 07:28:16' WHERE `articles`.`id` = 2[0m
+  [1m[35m (88.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2
+Completed 200 OK in 105ms (ActiveRecord: 99.5ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-10-04 14:28:16 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:28:18 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/7/edit" for 127.0.0.1 at 2017-10-04 14:28:20 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 7 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/articles/7" for 127.0.0.1 at 2017-10-04 14:28:23 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qUdwIswO7+cGZrYwPJUTvB4dKpFyTaer+bwtIBazmbGuigMoEKdh8y18HEhDXBGW5gxVNGvuFNRBy6oGM3pluQ==", "article"=>{"title"=>"wqdwr", "text"=>"dqwdw"}, "commit"=>"Update Article", "id"=>"7"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 7 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE `articles` SET `title` = 'wqdwr', `updated_at` = '2017-10-04 07:28:23' WHERE `articles`.`id` = 7[0m
+  [1m[35m (106.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/7
+Completed 200 OK in 115ms (ActiveRecord: 108.1ms)
+
+
+Started GET "/articles/7" for 127.0.0.1 at 2017-10-04 14:28:24 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 7 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:28:26 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-10-04 14:28:28 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/articles/1" for 127.0.0.1 at 2017-10-04 14:28:31 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/hB5D4HUQ1V450LvkWJqoOtyJ6oTs+dzz89VvArujkRWaeexZwB7IYzAEe+HDzP6yK6moPlltrkG9rR6Fanwaw==", "article"=>{"title"=>"canh", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 25ms (Views: 19.8ms | ActiveRecord: 1.1ms)
+
+
+Started PATCH "/articles/1" for 127.0.0.1 at 2017-10-04 14:28:32 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/hB5D4HUQ1V450LvkWJqoOtyJ6oTs+dzz89VvArujkRWaeexZwB7IYzAEe+HDzP6yK6moPlltrkG9rR6Fanwaw==", "article"=>{"title"=>"canh", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 31ms (Views: 25.8ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/articles/1" for 127.0.0.1 at 2017-10-04 14:28:35 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/hB5D4HUQ1V450LvkWJqoOtyJ6oTs+dzz89VvArujkRWaeexZwB7IYzAEe+HDzP6yK6moPlltrkG9rR6Fanwaw==", "article"=>{"title"=>"canhg", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE `articles` SET `title` = 'canhg', `updated_at` = '2017-10-04 07:28:35' WHERE `articles`.`id` = 1[0m
+  [1m[35m (70.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed 200 OK in 77ms (ActiveRecord: 70.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-10-04 14:28:36 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:28:38 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2017-10-04 14:28:43 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 36ms (Views: 31.8ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/articles/2" for 127.0.0.1 at 2017-10-04 14:28:50 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x/quAb8DfH0Hbevdv6KGoi7lMuAbmKFL1JfiRfD36fsrJ1ELoA3aaiMVa/W73r1L/c2WAY7WugipFie29LNuHQ==", "article"=>{"title"=>"wqdwt", "text"=>"deqwdwq"}, "commit"=>"Update Article", "id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2
+Completed 200 OK in 4ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-10-04 14:28:50 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 27.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:29:15 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/3/edit" for 127.0.0.1 at 2017-10-04 14:29:35 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 3 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:30:14 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 37ms (Views: 29.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/articles/6/edit" for 127.0.0.1 at 2017-10-04 14:30:15 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    2:  
+    3: <%= form_with(model: @article) do |form| %>
+    4:  
+    5:   <% if @article.errors.any? %>
+    6:     <div id="error_explanation">
+    7:       <h2>
+    8:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/edit.html.erb:5:in `block in _app_views_articles_edit_html_erb__1668150161657075993_70351363257860'
+app/views/articles/edit.html.erb:3:in `_app_views_articles_edit_html_erb__1668150161657075993_70351363257860'
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:30:42 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 33ms (Views: 25.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles/5/edit" for 127.0.0.1 at 2017-10-04 14:30:44 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 36ms (Views: 32.2ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/articles/5" for 127.0.0.1 at 2017-10-04 14:30:50 +0700
+Processing by ArticlesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ivVqiadhNNHd+gTzsjcvWAO+z5FJtTi2L08Ls5+aXwmoZR23CGinG/bcKZxzIuT5jryM75wkFVAVchzdTSajIA==", "article"=>{"title"=>"canh", "text"=>"caxlkn"}, "commit"=>"Update Article", "id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 30ms (Views: 25.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles/test" for 127.0.0.1 at 2017-10-04 14:33:25 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"test"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 8ms (ActiveRecord: 1.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=test):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles/test" for 127.0.0.1 at 2017-10-04 14:33:32 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"test"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=test):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:33:37 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with scope: :article, url: articles_path, local: true do |form| %>
+    2:   <% if @article.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2>
+    5:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/new.html.erb:2:in `block in _app_views_articles_new_html_erb___2223902070021186349_70351397836280'
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb___2223902070021186349_70351397836280'
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:33:45 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2017-10-04 14:33:47 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:33:49 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2017-10-04 14:33:49 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 4 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:33:51 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:33:53 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_with scope: :article, url: articles_path, local: true do |form| %>
+    2:   <% if @article.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2>
+    5:         <%= pluralize(@article.errors.count, "error") %> prohibited
+  
+app/views/articles/new.html.erb:2:in `block in _app_views_articles_new_html_erb___2223902070021186349_70351398175160'
+app/views/articles/new.html.erb:1:in `_app_views_articles_new_html_erb___2223902070021186349_70351398175160'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:34:28 +0700
+Processing by ArticlesController#new as HTML
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: article):
+  
+app/controllers/articles_controller.rb:34:in `article_params'
+app/controllers/articles_controller.rb:9:in `new'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:35:03 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 19.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:35:07 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-10-04 14:35:09 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:35:12 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/test" for 127.0.0.1 at 2017-10-04 14:35:15 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"test"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=test):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:35:24 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:35:40 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 39ms (Views: 18.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles/test" for 127.0.0.1 at 2017-10-04 14:35:44 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"test"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=test):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:38:41 +0700
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 231ms (Views: 211.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/articles/test" for 127.0.0.1 at 2017-10-04 14:38:46 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"test"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 4ms (ActiveRecord: 0.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=test):
+  
+app/controllers/articles_controller.rb:6:in `show'
+Started GET "/welcome/test" for 127.0.0.1 at 2017-10-04 14:41:50 +0700
+Processing by WelcomeController#test as HTML
+  Rendering welcome/test.html.erb within layouts/application
+  Rendered welcome/test.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:42:24 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 33ms (Views: 19.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 14:46:42 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (3.1ms)
+  Rendered articles/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:46:49 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/5/edit" for 127.0.0.1 at 2017-10-04 14:46:50 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/edit.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:47:04 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2017-10-04 14:47:05 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (1.9ms)
+  Rendered articles/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/" for 127.0.0.1 at 2017-10-04 14:48:28 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 34ms (Views: 27.7ms | ActiveRecord: 2.4ms)
+
+
+Started DELETE "/articles/1" for 127.0.0.1 at 2017-10-04 14:48:32 +0700
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BXXjVBDrtiLgRsKcIFuohTEXLXtFk+SnVYo2dWUiwA4t3kDWR2UFufZr+tCx6aUQ38jDuZ1UkhsgkGLZQhZjSw==", "id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 1[0m
+  [1m[35m (87.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 96ms (ActiveRecord: 88.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 14:48:32 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateComments (20171004074849)
+  [1m[35m (245.7ms)[0m  [1m[35mCREATE TABLE `comments` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `commenter` varchar(255), `body` text, `article_id` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_comments_on_article_id`  (`article_id`), CONSTRAINT `fk_rails_3bf61a60d3`
+FOREIGN KEY (`article_id`)
+  REFERENCES `articles` (`id`)
+) ENGINE=InnoDB[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004074849')[0m
+  [1m[35m (83.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 14:57:48 +0700
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (69.7ms)
+Completed 200 OK in 422ms (Views: 378.7ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 14:57:49 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 55ms (Views: 52.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles/5/comments" for 127.0.0.1 at 2017-10-04 14:57:53 +0700
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for CommentsController):
+  
+vendor/bundle/gems/actionpack-5.1.4/lib/abstract_controller/base.rb:119:in `process'
+vendor/bundle/gems/actionview-5.1.4/lib/action_view/rendering.rb:30:in `process'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_controller/metal.rb:189:in `dispatch'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_controller/metal.rb:253:in `dispatch'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:31:in `serve'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:50:in `block in serve'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `each'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/journey/router.rb:33:in `serve'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/routing/route_set.rb:834:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/etag.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/conditional_get.rb:38:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/head.rb:12:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/gems/rack-2.0.3/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/cookies.rb:613:in `call'
+vendor/bundle/gems/activerecord-5.1.4/lib/active_record/migration.rb:556:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/callbacks.rb:97:in `run_callbacks'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/gems/railties-5.1.4/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/gems/activesupport-5.1.4/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/gems/actionpack-5.1.4/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/gems/rack-2.0.3/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/gems/railties-5.1.4/lib/rails/engine.rb:522:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+vendor/bundle/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+vendor/bundle/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 14:58:40 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 53ms (Views: 38.5ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/articles/5/comments" for 127.0.0.1 at 2017-10-04 14:58:42 +0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vEHatdmCeG2i4UIOIX5lFK14cLwG20WqMecFhW7ZGC6U6nk3jgzL9rTMekKwzGiBQ6eeft4cMxZE/VEpSe27aw==", "comment"=>{"commenter"=>"xsada", "body"=>"dasddwq"}, "commit"=>"Create Comment", "article_id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `comments` (`commenter`, `body`, `article_id`, `created_at`, `updated_at`) VALUES ('xsada', 'dasddwq', 5, '2017-10-04 07:58:42', '2017-10-04 07:58:42')[0m
+  [1m[35m (100.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 110ms (ActiveRecord: 101.7ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 14:58:42 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 28ms (Views: 24.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 14:59:08 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.9ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 40ms (Views: 35.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:01:17 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial articles/__comment, application/__comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render '_comment' %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949314226240'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:01:58 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949247546400'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:01:59 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949227029440'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:02:01 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949148216660'
+Started POST "/articles/5/comments" for 127.0.0.1 at 2017-10-04 15:02:05 +0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vEHatdmCeG2i4UIOIX5lFK14cLwG20WqMecFhW7ZGC6U6nk3jgzL9rTMekKwzGiBQ6eeft4cMxZE/VEpSe27aw==", "comment"=>{"commenter"=>"xsada", "body"=>"dasddwq"}, "commit"=>"Create Comment", "article_id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `comments` (`commenter`, `body`, `article_id`, `created_at`, `updated_at`) VALUES ('xsada', 'dasddwq', 5, '2017-10-04 08:02:05', '2017-10-04 08:02:05')[0m
+  [1m[35m (144.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 153ms (ActiveRecord: 146.0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:02:05 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949227007340'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:02:54 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949247667980'
+Started POST "/articles/5/comments" for 127.0.0.1 at 2017-10-04 15:03:00 +0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vEHatdmCeG2i4UIOIX5lFK14cLwG20WqMecFhW7ZGC6U6nk3jgzL9rTMekKwzGiBQ6eeft4cMxZE/VEpSe27aw==", "comment"=>{"commenter"=>"xsada", "body"=>"dasddwq"}, "commit"=>"Create Comment", "article_id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `comments` (`commenter`, `body`, `article_id`, `created_at`, `updated_at`) VALUES ('xsada', 'dasddwq', 5, '2017-10-04 08:03:00', '2017-10-04 08:03:00')[0m
+  [1m[35m (68.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 74ms (ActiveRecord: 68.9ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:03:00 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949226431320'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:03:28 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949247361420'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:03:54 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949225973500'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:04:38 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949247110440'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:04:39 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949225003240'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:05:17 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 39ms (Views: 35.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles/5/comments" for 127.0.0.1 at 2017-10-04 15:05:21 +0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Njvf2PenXf2UmqV+v5KfOp0AqoCnNXrdPkgbdqR9QTUekHxaoCnuZoK3nTIuIJKvc99EQn/yDGFLUk/ag0nicA==", "comment"=>{"commenter"=>"ewq", "body"=>"eqweq"}, "commit"=>"Create Comment", "article_id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `comments` (`commenter`, `body`, `article_id`, `created_at`, `updated_at`) VALUES ('ewq', 'eqweq', 5, '2017-10-04 08:05:21', '2017-10-04 08:05:21')[0m
+  [1m[35m (93.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 99ms (ActiveRecord: 94.1ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:05:21 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:05:59 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949146956980'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:07:21 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     7:   <strong>Text:</strong>
+     8:   <%= @article.text %>
+     9: </p>
+    10: <%= render @article.comments %>
+    11: <h2>Add a comment:</h2>
+    12: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    13:   <p>
+  
+app/views/articles/show.html.erb:10:in `_app_views_articles_show_html_erb__4582930630749100028_69949314419980'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:08:17 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:09:44 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     8:   <%= @article.text %>
+     9: </p>
+    10: <h2>Comments</h2>
+    11: <%= render @article.comments %>
+    12: <h2>Add a comment:</h2>
+    13: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    14:   <p>
+  
+app/views/articles/show.html.erb:11:in `_app_views_articles_show_html_erb__4582930630749100028_69949221794760'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:10:10 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.7ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     8:   <%= @article.text %>
+     9: </p>
+    10: <h2>Comments</h2>
+    11: <%= render @article.comments %>
+    12: <h2>Add a comment:</h2>
+    13: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    14:   <p>
+  
+app/views/articles/show.html.erb:11:in `_app_views_articles_show_html_erb__4582930630749100028_69949313967580'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:10:11 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     8:   <%= @article.text %>
+     9: </p>
+    10: <h2>Comments</h2>
+    11: <%= render @article.comments %>
+    12: <h2>Add a comment:</h2>
+    13: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    14:   <p>
+  
+app/views/articles/show.html.erb:11:in `_app_views_articles_show_html_erb__4582930630749100028_69949223110000'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:10:12 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     8:   <%= @article.text %>
+     9: </p>
+    10: <h2>Comments</h2>
+    11: <%= render @article.comments %>
+    12: <h2>Add a comment:</h2>
+    13: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    14:   <p>
+  
+app/views/articles/show.html.erb:11:in `_app_views_articles_show_html_erb__4582930630749100028_69949181415560'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:10:12 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     8:   <%= @article.text %>
+     9: </p>
+    10: <h2>Comments</h2>
+    11: <%= render @article.comments %>
+    12: <h2>Add a comment:</h2>
+    13: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    14:   <p>
+  
+app/views/articles/show.html.erb:11:in `_app_views_articles_show_html_erb__4582930630749100028_69949218088420'
+Started POST "/articles/5/comments" for 127.0.0.1 at 2017-10-04 15:10:15 +0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vEHatdmCeG2i4UIOIX5lFK14cLwG20WqMecFhW7ZGC6U6nk3jgzL9rTMekKwzGiBQ6eeft4cMxZE/VEpSe27aw==", "comment"=>{"commenter"=>"xsada", "body"=>"dasddwq"}, "commit"=>"Create Comment", "article_id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `comments` (`commenter`, `body`, `article_id`, `created_at`, `updated_at`) VALUES ('xsada', 'dasddwq', 5, '2017-10-04 08:10:15', '2017-10-04 08:10:15')[0m
+  [1m[35m (67.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 74ms (ActiveRecord: 68.4ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:10:16 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+     8:   <%= @article.text %>
+     9: </p>
+    10: <h2>Comments</h2>
+    11: <%= render @article.comments %>
+    12: <h2>Add a comment:</h2>
+    13: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    14:   <p>
+  
+app/views/articles/show.html.erb:11:in `_app_views_articles_show_html_erb__4582930630749100028_69949180350680'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:11:20 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+    19:     <%= comment.body %>
+    20:   </p>
+    21: <% end %>
+    22: <%= render @article.comments %>
+    23: <h2>Add a comment:</h2>
+    24: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    25:   <p>
+  
+app/views/articles/show.html.erb:22:in `_app_views_articles_show_html_erb__4582930630749100028_69949315422280'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:11:21 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (1.0ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+    19:     <%= comment.body %>
+    20:   </p>
+    21: <% end %>
+    22: <%= render @article.comments %>
+    23: <h2>Add a comment:</h2>
+    24: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    25:   <p>
+  
+app/views/articles/show.html.erb:22:in `_app_views_articles_show_html_erb__4582930630749100028_69949147610500'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:11:22 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+    19:     <%= comment.body %>
+    20:   </p>
+    21: <% end %>
+    22: <%= render @article.comments %>
+    23: <h2>Add a comment:</h2>
+    24: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    25:   <p>
+  
+app/views/articles/show.html.erb:22:in `_app_views_articles_show_html_erb__4582930630749100028_69949314715660'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:11:51 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+    19:     <%= comment.body %>
+    20:   </p>
+    21: <% end %>
+    22: <%= render @article.comments %>
+    23: <h2>Add a comment:</h2>
+    24: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    25:   <p>
+  
+app/views/articles/show.html.erb:22:in `_app_views_articles_show_html_erb__4582930630749100028_69949146619560'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:11:52 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+    19:     <%= comment.body %>
+    20:   </p>
+    21: <% end %>
+    22: <%= render @article.comments %>
+    23: <h2>Add a comment:</h2>
+    24: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    25:   <p>
+  
+app/views/articles/show.html.erb:22:in `_app_views_articles_show_html_erb__4582930630749100028_69949314030820'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:11:52 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+    19:     <%= comment.body %>
+    20:   </p>
+    21: <% end %>
+    22: <%= render @article.comments %>
+    23: <h2>Add a comment:</h2>
+    24: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    25:   <p>
+  
+app/views/articles/show.html.erb:22:in `_app_views_articles_show_html_erb__4582930630749100028_69949228629020'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:11:52 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35m (13.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered articles/show.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 14.6ms)
+
+
+  
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/canhhuynh/myapp1/app/views"
+):
+    19:     <%= comment.body %>
+    20:   </p>
+    21: <% end %>
+    22: <%= render @article.comments %>
+    23: <h2>Add a comment:</h2>
+    24: <%= form_with(model: [ @article, @article.comments.build ], local: true) do |form| %>
+    25:   <p>
+  
+app/views/articles/show.html.erb:22:in `_app_views_articles_show_html_erb__4582930630749100028_69949247476660'
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:13:19 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [5 times] (1.5ms)
+  Rendered articles/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:14:17 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [5 times] (0.8ms)
+  Rendered articles/_form.html.erb (3.8ms)
+  Rendered articles/show.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 42ms (Views: 38.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:14:45 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [5 times] (0.8ms)
+  Rendered articles/show.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 36ms (Views: 32.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:14:56 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [5 times] (0.9ms)
+  Rendered articles/_form.html.erb (2.2ms)
+  Rendered articles/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:15:09 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [5 times] (0.5ms)
+  Rendered comments/_form.html.erb (3.7ms)
+  Rendered articles/show.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:15:50 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [5 times] (1.7ms)
+  Rendered comments/_form.html.erb (2.2ms)
+  Rendered articles/show.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 56ms (Views: 44.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:16:07 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [5 times] (1.5ms)
+  Rendered comments/_form.html.erb (3.6ms)
+  Rendered articles/show.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/articles/5/comments/1" for 127.0.0.1 at 2017-10-04 15:16:10 +0700
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZYdemY9N2t9kOb8IAJ1OaWnlaGdnEHFIEJJdfPXJi7lNLP0b2MNpRHIUh0SRL0P8hzqGpb/XB/RliAnQ0v0o/A==", "article_id"=>"5", "id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT  `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5 AND `comments`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM `comments` WHERE `comments`.`id` = 1[0m
+  [1m[35m (104.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 112ms (ActiveRecord: 106.5ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:16:10 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.8ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [4 times] (1.5ms)
+  Rendered comments/_form.html.erb (2.7ms)
+  Rendered articles/show.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/articles/5/comments/2" for 127.0.0.1 at 2017-10-04 15:16:13 +0700
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"fwYUHxXTBwdxFbTMVLsrBugp+qR9MsoJArsBuJLlUpZXrbedQl20nGc4jIDFCSaTBvYUZqX1vLV3oVUUtdHx0w==", "article_id"=>"5", "id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT  `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5 AND `comments`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM `comments` WHERE `comments`.`id` = 2[0m
+  [1m[35m (36.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 44ms (ActiveRecord: 37.9ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:16:13 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [3 times] (1.7ms)
+  Rendered comments/_form.html.erb (2.3ms)
+  Rendered articles/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/articles/5/comments/3" for 127.0.0.1 at 2017-10-04 15:16:15 +0700
+Processing by CommentsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MwY3JUerPXpYOZb5TpJsDqCgpcNBtCDkv8WWtrZisyQbrZSnECWO4U4UrrXfIGGbTn9LAZlzVljK38IakVYQYQ==", "article_id"=>"5", "id"=>"3"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT  `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5 AND `comments`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `comments` WHERE `comments`.`id` = 3[0m
+  [1m[35m (30.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 37ms (ActiveRecord: 31.9ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2017-10-04 15:16:15 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 5 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 5[0m
+  Rendered collection of comments/_comment.html.erb [2 times] (1.9ms)
+  Rendered comments/_form.html.erb (4.9ms)
+  Rendered articles/show.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 38ms (Views: 33.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 15:16:21 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-10-04 15:16:22 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered comments/_form.html.erb (3.9ms)
+  Rendered articles/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/articles/2/comments" for 127.0.0.1 at 2017-10-04 15:16:25 +0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"20921o4vLumOcOmP0ELdjksTSvnve4N3A4MxwnXSacZX8OtAJG13aeq+55mHsI9R6ljSOt1pX45bbASr4BzjLQ==", "comment"=>{"commenter"=>"eqw", "body"=>"eqw"}, "commit"=>"Create Comment", "article_id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `comments` (`commenter`, `body`, `article_id`, `created_at`, `updated_at`) VALUES ('eqw', 'eqw', 2, '2017-10-04 08:16:25', '2017-10-04 08:16:25')[0m
+  [1m[35m (43.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2
+Completed 302 Found in 50ms (ActiveRecord: 44.3ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-10-04 15:16:25 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  Rendered collection of comments/_comment.html.erb [1 times] (1.2ms)
+  Rendered comments/_form.html.erb (3.2ms)
+  Rendered articles/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 33ms (Views: 29.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 15:16:27 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 35ms (Views: 32.7ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/articles/2" for 127.0.0.1 at 2017-10-04 15:16:30 +0700
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dqg6QqFwalTqLOV/jvLV8mJBtZ42iYpx2Cave9UZ4fReA5nA9v7Zz/wB3TMfQNhnjJ5bXO5O/M2tPPvX8i1CsQ==", "id"=>"2"}
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 2[0m
+  [1m[35m (39.3ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 41.5ms)
+
+
+  
+ActiveRecord::StatementInvalid (Mysql2::Error: Cannot delete or update a parent row: a foreign key constraint fails (`myapp1_development`.`comments`, CONSTRAINT `fk_rails_3bf61a60d3` FOREIGN KEY (`article_id`) REFERENCES `articles` (`id`)): DELETE FROM `articles` WHERE `articles`.`id` = 2):
+  
+app/controllers/articles_controller.rb:34:in `destroy'
+Started DELETE "/articles/2" for 127.0.0.1 at 2017-10-04 15:17:10 +0700
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dqg6QqFwalTqLOV/jvLV8mJBtZ42iYpx2Cave9UZ4fReA5nA9v7Zz/wB3TMfQNhnjJ5bXO5O/M2tPPvX8i1CsQ==", "id"=>"2"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/canhhuynh/myapp1/app/models/article.rb:2: syntax error, unexpected ','
+	has_many :comments,, dependent: :destroy
+	                    ^):
+  
+app/models/article.rb:2: syntax error, unexpected ','
+app/controllers/articles_controller.rb:33:in `destroy'
+Started DELETE "/articles/2" for 127.0.0.1 at 2017-10-04 15:17:23 +0700
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dqg6QqFwalTqLOV/jvLV8mJBtZ42iYpx2Cave9UZ4fReA5nA9v7Zz/wB3TMfQNhnjJ5bXO5O/M2tPPvX8i1CsQ==", "id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM `comments` WHERE `comments`.`id` = 6[0m
+  [1m[35mSQL (67.9ms)[0m  [1m[31mDELETE FROM `articles` WHERE `articles`.`id` = 2[0m
+  [1m[35m (65.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 171ms (ActiveRecord: 137.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 15:17:23 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateComment1s (20171004082512)
+  [1m[35m (284.7ms)[0m  [1m[35mCREATE TABLE `comment1s` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `commenter1` varchar(255), `body1` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004082512')[0m
+  [1m[35m (46.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPartNumberToProducts (20171004084235)
+  [1m[35m (1.4ms)[0m  [1m[35mALTER TABLE `products` ADD `part_number` varchar(255)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddPartNumberToProducts (20171004084235)
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE `products` ADD `part_number` varchar(255)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddPartNumberToProducts1 (20171004084703)
+  [1m[35m (108.4ms)[0m  [1m[35mALTER TABLE `comment1s` CHANGE `body1` `bodyy` text DEFAULT NULL[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004084703')[0m
+  [1m[35m (77.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddPartNumberToProducts1 (20171004084703)
+  [1m[35m (76.3ms)[0m  [1m[35mALTER TABLE `comment1s` CHANGE `bodyy` `body1` text DEFAULT NULL[0m
+  [1m[35mSQL (30.1ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20171004084703'[0m
+Migrating to CreateComment1s (20171004082512)
+  [1m[35m (162.5ms)[0m  [1m[35mDROP TABLE `comment1s`[0m
+  [1m[35mSQL (35.9ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20171004082512'[0m
+Migrating to CreateComments (20171004074849)
+  [1m[35m (256.6ms)[0m  [1m[35mDROP TABLE `comments`[0m
+  [1m[35mSQL (32.9ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20171004074849'[0m
+Migrating to CreateArticles (20171004062032)
+  [1m[35m (132.9ms)[0m  [1m[35mDROP TABLE `articles`[0m
+  [1m[35mSQL (33.2ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20171004062032'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateArticles (20171004062032)
+  [1m[35m (265.4ms)[0m  [1m[35mCREATE TABLE `articles` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `text` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004062032')[0m
+  [1m[35m (40.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateComments (20171004074849)
+  [1m[35m (274.7ms)[0m  [1m[35mCREATE TABLE `comments` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `commenter` varchar(255), `body` text, `article_id` bigint, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_comments_on_article_id`  (`article_id`), CONSTRAINT `fk_rails_3bf61a60d3`
+FOREIGN KEY (`article_id`)
+  REFERENCES `articles` (`id`)
+) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004074849')[0m
+  [1m[35m (63.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateComment1s (20171004082512)
+  [1m[35m (266.2ms)[0m  [1m[35mCREATE TABLE `comment1s` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `commenter1` varchar(255), `body1` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004082512')[0m
+  [1m[35m (28.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPartNumberToProducts1 (20171004084703)
+  [1m[35m (62.1ms)[0m  [1m[35mALTER TABLE `comment1s` CHANGE `body1` `bodyy` text DEFAULT NULL[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004084703')[0m
+  [1m[35m (27.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 15:55:27 +0700
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 183ms (Views: 168.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-10-04 15:55:29 +0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (12.2ms)
+  Rendered articles/new.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 78ms (Views: 39.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 15:55:33 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5PiHuE1C22Dd3e7M7D6pOqpeNX0CKrvM526TZySpHYt1D79+WdZk0CiFVDcFVf80iTHBEfMOrJs19aCcxRM27Q==", "article"=>{"title"=>"canh", "text"=>"xac"}, "commit"=>"Save Article"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.3ms)
+  Rendered articles/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 36ms (Views: 32.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2017-10-04 15:55:36 +0700
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7siNWJLiIyva9nCIhcIPpeWYhjIQPZZtj3jJni67H4zGYy7axWyQsMzbSMQUcAIwC0do8Mj64NH6Yp0yCY+8yQ==", "article"=>{"title"=>"canhsd", "text"=>"xac"}, "commit"=>"Save Article"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `articles` (`title`, `text`, `created_at`, `updated_at`) VALUES ('canhsd', 'xac', '2017-10-04 08:55:36', '2017-10-04 08:55:36')[0m
+  [1m[35m (55.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 62ms (ActiveRecord: 55.7ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-10-04 15:55:36 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 1[0m
+  Rendered collection of templates [0 times] (0.0ms)
+  Rendered comments/_form.html.erb (21.1ms)
+  Rendered articles/show.html.erb within layouts/application (51.8ms)
+Completed 200 OK in 102ms (Views: 83.5ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/articles/1/comments" for 127.0.0.1 at 2017-10-04 15:55:39 +0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UzaJ2SDC+ZF/DafrcNX0mIwoUIevEZA+0tKTReVhI6d7nSpbd0xKCmkgn6fhZ/kNYve+RXfW5oKnyMfpwlWA4g==", "comment"=>{"commenter"=>"dwq", "body"=>"dqw"}, "commit"=>"Create Comment", "article_id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO `comments` (`commenter`, `body`, `article_id`, `created_at`, `updated_at`) VALUES ('dwq', 'dqw', 1, '2017-10-04 08:55:39', '2017-10-04 08:55:39')[0m
+  [1m[35m (96.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 108ms (ActiveRecord: 97.6ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-10-04 15:55:39 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT  `articles`.* FROM `articles` WHERE `articles`.`id` = 1 LIMIT 1[0m
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 1[0m
+  Rendered collection of comments/_comment.html.erb [1 times] (1.1ms)
+  Rendered comments/_form.html.erb (13.5ms)
+  Rendered articles/show.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 46ms (Views: 40.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-10-04 15:55:41 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  Rendered articles/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to Addcolumnintocomment1s (20171004085925)
+  [1m[35m (472.0ms)[0m  [1m[35mALTER TABLE `comment1s` ADD `part_number` varchar(255)[0m
+  [1m[35m (210.0ms)[0m  [1m[35mCREATE  INDEX `index_comment1s_on_part_number`  ON `comment1s` (`part_number`) [0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20171004085925')[0m
+  [1m[35m (27.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK(1729377498680957790, 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to Addcolumnintocomment1s (20171004085925)
+  [1m[35m (130.5ms)[0m  [1m[35mDROP INDEX `index_comment1s_on_part_number` ON `comment1s`[0m
+  [1m[35m (434.4ms)[0m  [1m[35mALTER TABLE `comment1s` DROP `part_number`[0m
+  [1m[35mSQL (32.2ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20171004085925'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(1729377498680957790)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
